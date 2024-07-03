@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: grid;
+    gap: 20px;
+}
+
+header nav{
+    background-color: hsl(60, 7%, 13%);
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+   color: white;
+}
+
+header nav .menuPage{
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+}
+
+header nav .menuPage p{
+    cursor: pointer;
+}
+
+
+/* Salam */
+
+header .salam{
+    text-align: center;
+    font-size: 20px;
+}
+
+.challange{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    gap: 20px;
+}
+
+.challange .buttonHandle{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 20px;
+    width: 400px;
+}
+
+.challange .buttonHandle button{
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(52, 52, 160);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.tictactoe {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.tictactoe .tittle{
+    text-align: center;
+    font-size: 29px;
+}
+.tictactoe .tictactoeBox{
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 2px solid black; */
+    width: 400px;
+}
+
+.tictactoe .tictactoeBox .box{
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    height: 80px;
+    cursor: pointer;
+}
+.buttonReset{
+    margin: 20px auto;
+    width: 200px;
+    padding: 15px;
+    cursor: pointer;
+}
